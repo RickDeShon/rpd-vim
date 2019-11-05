@@ -9,3 +9,5 @@
 " Same thing (:le = :left = left-align given range; % = all lines):
 :%le
 
+* Find string then delete to end of line
+:%s/{pattern}.*//
